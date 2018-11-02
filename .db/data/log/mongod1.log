@@ -1,0 +1,35 @@
+2018-09-28T17:43:13.592-0400 I ACCESS   [main] invalid char in key file C:/Users/Grahn/OneDrive/www/projects/@Greco/.db/pki/jdc-keyfile: ÿ
+2018-09-28T17:43:48.904-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-09-28T17:43:49.259-0400 I ACCESS   [main] invalid char in key file C:/Users/Grahn/OneDrive/www/projects/@Greco/.db/pki/jdc-keyfile: ÿ
+2018-09-28T18:00:45.244-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-09-28T18:00:45.852-0400 I ACCESS   [main] invalid char in key file C:/Users/Grahn/OneDrive/www/projects/@Greco/.db/pki/jdc-keyfile: ÿ
+2018-09-28T18:07:24.976-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-09-28T18:07:25.588-0400 I CONTROL  [initandlisten] MongoDB starting : pid=11140 port=27001 dbpath=.db/data/db/1 64-bit host=TheBigMac
+2018-09-28T18:07:25.589-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] db version v4.0.2
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] modules: enterprise 
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] build environment:
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten]     distmod: windows-64
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-09-28T18:07:25.627-0400 I CONTROL  [initandlisten] options: { config: ".db/etc/mongod-repl-1.cfg", net: { bindIp: "localhost", port: 27001 }, processManagement: { windowsService: { displayName: "MongoDB", serviceName: "MongoDB" } }, replication: { replSetName: "jdc-repl" }, storage: { dbPath: ".db/data/db/1" }, systemLog: { destination: "file", logAppend: true, path: ".db/data/log/mongod1.log" } }
+2018-09-28T18:07:25.753-0400 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory .db/data/db/1 not found., terminating
+2018-09-28T18:07:25.823-0400 I CONTROL  [initandlisten] now exiting
+2018-09-28T18:07:25.837-0400 I CONTROL  [initandlisten] shutting down with code:100
+2018-09-28T18:07:30.546-0400 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-09-28T18:07:30.923-0400 I CONTROL  [initandlisten] MongoDB starting : pid=15176 port=27001 dbpath=.db/data/db/1 64-bit host=TheBigMac
+2018-09-28T18:07:30.923-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-09-28T18:07:30.923-0400 I CONTROL  [initandlisten] db version v4.0.2
+2018-09-28T18:07:30.923-0400 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] modules: enterprise 
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] build environment:
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten]     distmod: windows-64
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] options: { config: ".db/etc/mongod-repl-1.cfg", net: { bindIp: "localhost", port: 27001 }, processManagement: { windowsService: { displayName: "MongoDB", serviceName: "MongoDB" } }, replication: { replSetName: "jdc-repl" }, storage: { dbPath: ".db/data/db/1" }, systemLog: { destination: "file", logAppend: true, path: ".db/data/log/mongod1.log" } }
+2018-09-28T18:07:30.924-0400 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory .db/data/db/1 not found., terminating
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] now exiting
+2018-09-28T18:07:30.924-0400 I CONTROL  [initandlisten] shutting down with code:100
