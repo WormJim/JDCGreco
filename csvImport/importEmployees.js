@@ -18,8 +18,22 @@
       cell: object.cell ? object.cell : null
     };
     this.emailAddress = object.emailAddress ? object.emailAddress : null;
-    this.active = object.active;
-    this.comments = object.comments;
+
+    this.active = (function() {
+      let output = true;
+      if (object.active === 'TRUE') {
+        output = false;
+      }
+      return output;
+    })();
+
+    this.comments = (function() {
+      let output = object.comments;
+      if (output.length === 0) {
+        output = null;
+      }
+      return output;
+    })();
     this.dateEntered = object.dateEntered;
     this.lastModifiedBy = object.lastModifiedBy;
     this.MI = object.MI;

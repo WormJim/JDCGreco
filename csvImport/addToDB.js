@@ -27,7 +27,7 @@
         .catch(function() {
           mongoose.connection.close(function(err) {
             if (err) console.error(err);
-            console.log('DB Connection closed');
+            console.log('In Save Catch DB Connection closed');
           });
         });
     });
