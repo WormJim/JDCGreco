@@ -1,6 +1,6 @@
 let fs = require('fs');
 let path = require('path');
-let database = require('../server/config/config').database;
+let db = require('../server/config/config').database;
 let mongoose = require('mongoose');
 let csvProcess = require('./csvProcess');
 
@@ -11,8 +11,8 @@ let importFiles = fs.readdirSync(importDir);
 // connect to database
 mongoose
   .connect(
-    database.mongo,
-    database
+    db.mongo,
+    db.dbOptions
   )
   .then(function() {
     console.log('DB Connection OPEN');
