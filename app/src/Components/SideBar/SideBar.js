@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const SideBar = ({ ...props }) => {
   const { classes, link, call } = props;
@@ -8,6 +8,8 @@ const SideBar = ({ ...props }) => {
   return <div />;
 };
 
-// SideBar.propTypes = {};
+SideBar.propTypes = {
+  classes: PropTypes.object.isRequired
+};
 
 export default SideBar;
